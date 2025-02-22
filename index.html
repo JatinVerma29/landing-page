@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore India</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            text-align: center;
+        }
+        .navbar {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: url('hero.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero-text {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            color: white;
+            font-size: 24px;
+            border-radius: 5px;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            gap: 10px;
+        }
+        .btn {
+            background: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        .taj-section {
+            padding: 50px;
+            text-align: center;
+            background: #f8f9fa;
+        }
+        .taj-section h2 {
+            margin-bottom: 20px;
+        }
+        .taj-section p {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Contact</a>
+    </div>
+    
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Our Website!</h1>
+            <p>Discover the beauty of India</p>
+        </div>
+    </div>
+
+    <div class="services">
+        <button class="btn">Tour Packages</button>
+        <button class="btn">Cultural Experiences</button>
+        <button class="btn">Travel Guide</button>
+    </div>
+
+    <div class="taj-section">
+        <h2>About the Taj Mahal</h2>
+        <p>The Taj Mahal, located in Agra, India, is one of the most famous monuments in the world. Built by the Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, it is an architectural masterpiece and a symbol of eternal love. The white marble mausoleum is renowned for its intricate carvings, stunning symmetry, and beautiful gardens.</p>
+        <p>Designated as a UNESCO World Heritage Site, the Taj Mahal attracts millions of visitors each year. It is best visited during sunrise or sunset when the marble glows with a golden hue, offering a breathtaking experience.</p>
+    </div>
+</body>
+</html>
