@@ -42,9 +42,3 @@ xdg-open index.html    # Linux
 **Jatin Verma** — Personal frontend practice project
 ```
 
----
-
-A few tips:
-- The repo currently has a near-empty README (just says "landing-page") — replace all of it with the above.
-- If you want to add a screenshot, open `index.html` in your browser, take a screenshot, and drag it into the GitHub editor — it'll auto-upload and give you a URL to paste in the Preview line.
-- If you ever deploy it to GitHub Pages (it's free and takes 2 minutes), you can add a live demo link too.
