@@ -40,5 +40,4 @@ xdg-open index.html    # Linux
 ## 👤 Author
 
 **Jatin Verma** — Personal frontend practice project
-```
 
